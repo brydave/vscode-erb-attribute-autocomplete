@@ -1,0 +1,16 @@
+{
+	"Autocomplete div with class": {
+		"prefix": ["d", "dc"],
+		"body": [
+			"<div class=\"$1\">$2</div>"
+		],
+		"description": "Autocomplete div with class in erb files"
+	},
+  "Autocomplete div with carets and class": {
+		"prefix": ["<d"],
+		"body": [
+			"<div class=\"$1\">$2</div$0"
+		],
+		"description": "Autocomplete div with carets and class in erb files"
+	}	
+}
